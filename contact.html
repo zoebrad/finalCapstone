@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel = "stylesheet" href = "index.css">
+        <script src="https://kit.fontawesome.com/41c3798cfa.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="booksJS.js" async></script>
+        <title>Contact</title>
+    </head>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="float-left" href = "index.html"><i class="fa-solid fa-house fa"></i></a></li>
+                <li><a class="mid" href="romance.html">Romance</a></li>
+                <li><a class="mid" href="paranormal.html">Paranormal</a></li>
+                <li><a class="mid" href="harem.html">Reverse Harems</a></li>
+                <li><a class="float-right" href="saved.html" id="bookmarkNav"><i class="fa-regular fa-bookmark"></i></a></li>
+                <li><a class="float-right" href = "contact.html"><i class="fa-solid fa-comment fa"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!--Background Image & title-->
+        <img id = "background-img" src = "images/image2.jpg" alt = "Books image">
+        <div class = "back-transparent">
+            <h1 id="page-title">What do you think?</h1>
+            <p id="summary">
+                Will you leave us some feedback?
+                <br>Just to let us know what you think.
+        </div>
+
+        <!--Leave a comment-->
+        <div class = "back-transparent">
+            <section class = "comments">
+                <h3>Please Leave a Comment</h3>
+                <form id="comments">
+                    <input type="text" id="name" name="name" placeholder="  Your Name..." required><br>
+                    <!-- <label for="comment"></label><br> -->
+                    <textarea id="message" name="message" rows="6" placeholder=" Please write your comment here..." required></textarea>
+                    <div class="button-holder">
+                        <input type="submit" id="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <!--Send a message-->
+        <div class = "back-transparent">
+            <section class = "form">
+                <h3>Send me a message</h3>
+                <p>If you want to contact me, just fill in the form below and I'll get back to you!</p>
+                <form id="contact-message">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="  Your Name..." required><br>
+                    <label for="emailIn">Email:</label><br>
+                    <input type="email" id="emailIn" name="emailIn" placeholder="  Your Email..."required><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="  Your Phone Number..."><br>
+                    <label for="message">Please write your message below:</label><br>
+                    <textarea id="message" name="message" rows="6" placeholder=" Please type your message here..." required></textarea>
+                    <div class="button-holder">
+                        <input type="submit" id="submit" name="message" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <!--Sign up to newsletter-->
+        <div class = "back-transparent">
+            <section class = "newsletter">
+                <h3>Would you like to subscribe to our newsletter?</h3>
+                <p>Please enter your e-mail address below</p>
+                <input type="email" id="email" name="email" placeholder="Your Email..."><br>
+                <input type="submit" id="submit" name="email" value="Submit">
+            </section>
+        </div>
+
+    </main>
+</html>

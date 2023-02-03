@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel = "stylesheet" href = "index.css">
+        <script src="https://kit.fontawesome.com/41c3798cfa.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="booksJS.js" async></script>
+        <title>Authors-Favourites</title>
+    </head>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="float-left" href = "index.html"><i class="fa-solid fa-house fa"></i></a></li>
+                <li><a class="mid" href="romance.html">Romance</a></li>
+                <li><a class="mid" href="paranormal.html">Paranormal</a></li>
+                <li><a class="mid" href="harem.html">Reverse Harems</a></li>
+                <li><a class="float-right" href="saved.html" id="bookmarkNav"><i class="fa-regular fa-bookmark"></i></a></li>
+                <li><a class="float-right" href = "contact.html"><i class="fa-solid fa-comment fa"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!--Background Image-->
+        <img id = "background-img" src = "images/image2.jpg" alt = "Books image">
+        
+        <!--Heading & description-->
+        <div class = "back-transparent">
+            <div class="heading-container">
+                <h2 id="intro">Must Read</h2>
+                <h1 id = "author">Authors</h1>
+                <p id = "description">Romance, paranormal and reverse harems<br>Take a look at some of my favourite authors</p>
+            </div>
+        </div>
+
+            <!--Flex Container for image links to other pages-->
+        <div class="back-transparent">
+            <div class = "home-link-container">
+                
+                <!--Romance page link-->
+                <a href="romance.html">
+                    <div class = "link-box rom-img">
+                        <div class="link-box-appear">
+                            <h2 class="link-title">Romance</h2>
+                            <p class="link-description">Enemies to lovers<br>
+                                                        Secret Babies<br>
+                                                        True Love<br><br>
+                                                        Go ahead and click to take a look at some of my all time favourite romance authors</p>
+                        </div> 
+                    </div>
+                </a>
+
+                <!--Paranormal page link-->
+                <a href="paranormal.html">
+                    <div class = "link-box para-img">
+                        <div class="link-box-appear">
+                            <h2 class="link-title">Parnormal</h2>
+                            <p class="link-description">Love reading about destinies and soulmates whilst taking a step over to the paranormal side. Go ahead and click for my recommendations</p>
+                        </div> 
+                    </div>
+                </a>
+
+                <!--Harem page link-->
+                <a href="harem.html">
+                    <div class = "link-box harem-img">
+                        <div class="link-box-appear">
+                            <h2 class="link-title">Reverse<br>Harem</h2>
+                            <p class="link-description">If you've never tried a reverse harem story, you're missing out. Give it a click to see what you're missing out on!</p>
+                        </div> 
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="booksJS.js"></script>
+    </main>
+</html>

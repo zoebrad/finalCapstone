@@ -1,11 +1,15 @@
 # Favourite Books Website
-###### A Website Showcasing My Favourite Authors
+#### A Website Showcasing My Favourite Authors
 This website is a collection of pages, seperated into different genres, showcasing some of my favourite authors and their series.
-______
+___
+## Homepage
 
 ![HomePage image](https://user-images.githubusercontent.com/121644177/216611462-c1f7d671-1049-4021-8c16-e78851404179.png)
 
-After landing on the homepage, users can navigate to any of the genre pages using the navigation bar or the links provided as images.
+After landing on the homepage, users can navigate to any of the genre pages using the navigation bar or the links provided as images. When the images are hovered over, the genre page title it is linked to will show.
+
+___
+
 
 Once on a genre page, users have the option to bookmark individual author sections. Once a section has been bookmarked, a clip of that section will be saved to the Saved For Later page (saved for later page referenced as a bookmark item in the top right hand corner of the navigation bar). The section clips saved act as links back to the bookmarked author sections on the genre page.
 
